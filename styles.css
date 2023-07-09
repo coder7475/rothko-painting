@@ -10,26 +10,30 @@
     height: 600px;
     background-color: #4d0f00;
     overflow: hidden;
+    filter: blur(2px);
+ }
+ .one, .two {
+    filter: blur(1px);
+}
 
-  }
-
-  .one {
+.one {
     width: 425px;
     height: 150px;
     background-color: #efb762;
     margin: 20px auto;
-  }
+}
 
-  .two {
+.two {
     width: 475px;
     height: 200px;
     background-color: #8f0401;
     margin: 0 auto 20px;
-  }
+}
 
   .three {
     width: 91%;
     height: 28%;
     background-color: #b20403;
     margin: auto;
+    filter: blur(2px);
   }
